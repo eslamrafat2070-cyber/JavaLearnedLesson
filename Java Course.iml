@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="codeborne.selenide.testng" level="project" />
+    <orderEntry type="library" exported="" name="codeborne.selenide.testng" level="project" />
     <orderEntry type="library" exported="" name="testng" level="application" />
   </component>
 </module>

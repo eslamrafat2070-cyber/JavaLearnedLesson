@@ -7,7 +7,6 @@ import java.util.ArrayList;
 public class ArrayListt {
 
 
-
     @Test
     public void case1()
     {
@@ -29,8 +28,5 @@ public class ArrayListt {
 
 
     }
-
-
-
 
 }

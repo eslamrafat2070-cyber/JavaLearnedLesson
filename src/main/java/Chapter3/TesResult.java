@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class TesResult {
 
+    static char  grade ;
+    static Scanner scan = new Scanner(System.in);
+
     public  static  void  main (String[] args) {
 
       System.out.println("Plesae enter the Score");
-      Scanner scan = new Scanner(System.in);
-        int score = scan.nextInt();scan.close();
-        char  grade ;
-
+        int score = scan.nextInt();
         scan.close();
 
         if (score < 60)
         {
          grade = 'f';
         }
-        else if (score < 70)
+        else if (score >60 & score < 70)
         {
             grade = 'D';
         }

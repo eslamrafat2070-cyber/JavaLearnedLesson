@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class DoWhileLoop {
     public static void main(String[] args) {
 
-        int cheker = 1;
-        int sum;
-        int sum2 = 0;
+        int cheker = 1;    // this variable is used to check if the user wants to continue entering values
+        int sum; // this variable is used to store the entered value
+        int sum2 = 0; // this variable is used to store the sum of all entered values
         Scanner scan = new Scanner(System.in);
         do {
             System.out.println("enter the value ");

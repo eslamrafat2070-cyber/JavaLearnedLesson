@@ -6,7 +6,6 @@ public class SalaryCalculator {
 
     public  static  void  main (String[] args) {
 
-
         // Declaration of salary and bounce
         int salary = 1000;
         int bounce=250;
@@ -22,4 +21,7 @@ public class SalaryCalculator {
             }
         System.out.println("your salary is =  " + salary);
         }
-}
+
+
+    }
+

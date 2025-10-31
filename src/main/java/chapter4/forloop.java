@@ -15,12 +15,11 @@ public class forloop {
         System.out.println("enter the value  Quantaty");
         qunatay= scan.nextInt();
 
-        for (int i=1 ; i<(qunatay+1) ; i++) {
+        for (int i=1 ; i<(qunatay) ; i++) {
             System.out.println("enter the value number  " + i);
             sum = scan.nextInt();
             sum2 = sum2 + sum;
         }
-
         scan.close();
         System.out.println(" the final sum is " + sum2);
     }

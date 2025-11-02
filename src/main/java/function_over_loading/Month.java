@@ -1,4 +1,4 @@
-package chapter6.function_over_loading;
+package function_over_loading;
 
 public class Month {
     public static String getMonth(int month){

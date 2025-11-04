@@ -7,6 +7,15 @@ public class PersonBaseClass {
     private  int age;
     private   char gender;
 
+    //create defult constructor
+    public PersonBaseClass() {
+      System.out.println("PersonBaseClass Constructor");
+    }
+    public  PersonBaseClass(String name)
+    {
+        System.out.println("Second Constructor with name parameter: " + name);
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -14,7 +23,6 @@ public class PersonBaseClass {
     public void setAge(int age) {
         this.age = age;
     }
-
     public void setGender(char gender) {
         this.gender = gender;
     }

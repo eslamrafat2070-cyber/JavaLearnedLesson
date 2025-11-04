@@ -5,6 +5,14 @@ public class EmployeeSubClass extends PersonBaseClass{
     private  String employeeID;
     private  String employeeTitle;
 
+    // create defult constructor
+    public EmployeeSubClass() {
+
+        // calling the second constructor of the base class
+       super("Esoooooooo");
+        System.out.println("EmployeeSubClass Constructor ");
+    }
+
     public String getEmployeeID() {
         return employeeID;
     }
